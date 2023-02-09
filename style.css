@@ -1,0 +1,95 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+:root{
+    --Softblue: hsl(215, 51%, 70%);
+    --Cyan: hsl(178, 100%, 50%);
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+html{
+    font-size: 18px;
+}
+body{
+    font-family: 'Outfit', sans-serif;
+    background-color: hsl(217, 54%, 11%);
+}
+@media (min-width:1440px){
+    .container{
+        margin: 145px auto;
+    }
+}
+@media (min-width:375px){
+    .container{
+        margin: 145px auto;
+    }
+}
+.container{
+    border-radius: 10px;
+    background-color:  hsl(216, 50%, 16%);
+    display: flex;
+    justify-content: center;
+    padding: 23px 24px;
+    width: 350px;
+    height: 595px;
+}
+.image img{
+    border-radius: 10px;
+    width: 304px;
+}
+.info{
+    padding: 28px 0 0 0;
+}
+.info{
+    color: white;
+    font-weight: 600;
+}
+.info p{
+    color: var(--Softblue);
+    font-weight: 400;
+    height: 188px;
+}
+.info__datos{
+    height: 85px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+
+}
+.datos{
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    border-bottom: 1px solid var(--Softblue);
+}
+.dato1{
+    color: var(--Cyan);
+}
+.dato2{
+    color: var(--Softblue);
+    font-weight: 300;
+}
+.by{
+    padding: 15px 0;
+    display: flex;
+}
+.foto{
+    width: 20%;
+}
+.foto img{
+    width: 80%;
+}
+.nombre{
+    display: flex;
+    align-items: center;
+}
+.nombre p{
+    color: white;
+}
+.nombre span{
+   color: var(--Softblue);
+}
